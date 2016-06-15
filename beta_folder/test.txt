@@ -3,3 +3,8 @@ void test()
 	printf("Test\n");
 	test();
 }
+void test1()
+{
+	test();
+	printf("Test\n");
+}
