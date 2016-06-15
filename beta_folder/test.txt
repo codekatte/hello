@@ -1,0 +1,5 @@
+void test()
+{
+	printf("Test\n");
+	test();
+}
