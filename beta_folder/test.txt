@@ -1,6 +1,5 @@
 void test()
 {
-	printf("Test\n");
 	test();
 }
 void test1()
@@ -12,4 +11,9 @@ void fatal()
 {
 	test();
 	test1();
+}
+void fatal1()
+{
+	test1();
+	test();
 }
